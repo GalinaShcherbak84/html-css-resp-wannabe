@@ -160,6 +160,9 @@
     .offset-xs-1{
         margin-left:calc(100%/12);
     }
+    .offset-xs-0{
+        margin-left: 0;
+    }
 }
 
 /* da 768 px a 991 - md */
@@ -238,6 +241,9 @@
     .offset-md-1{
         margin-left:calc(100%/12);
     }
+    .offset-md-0{
+        margin-left: 0;
+    }
 }
 /* da 992 in su - lg */
 @media screen and (min-width:992px){
@@ -314,5 +320,8 @@
     }
     .offset-lg-1{
         margin-left:calc(100%/12);
+    }
+    .offset-lg-0{
+        margin-left: 0;
     }
 }
